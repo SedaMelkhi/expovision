@@ -1,0 +1,122 @@
+.form
+    background-color: rgba(0,0 ,0, 30%)
+    width: 100%
+    height: 100vh
+    display: none
+    align-items: center
+    justify-content: center
+    position: fixed
+    z-index: 2
+    top: 0px
+    left: 0px
+    
+    
+
+.form-container
+    background-color: #fff
+    padding: 80px 70px
+    border-radius: 24px
+    &__element
+        display: flex
+        gap: 130px
+        
+    
+ 
+      
+.form-left
+    width: 357px
+    &__title
+        font-family: Arial
+        font-size: 63px
+        font-weight: 700
+        line-height: 77px  
+    &__text
+        font-family: Montserrat
+        font-size: 18px
+        line-height: 29px
+        margin-top: 24px
+        
+
+.form-right
+    width: 589px
+    &__element-up
+        margin-bottom: 32px
+    &__element-down
+        display: flex
+        gap: 12px
+
+
+.input
+    display: block
+    width: 589px
+    height: 56px
+    border-radius: 8px
+    border: 1px solid #B4B4B4
+    padding: 16px 20px
+    font-size: 16px
+    line-height: 24px
+    &:not(.input:first-child)
+        margin-top: 24px
+    &::placeholder
+        color: #B4B4B4
+
+
+.button
+    width: 224px
+    height: 56px
+    padding: 16px 32px 16px 32px
+    border-radius: 8px
+    border: 0px 
+    background-color: #007DFF
+    font-family: Poppins
+    font-size: 18px
+    line-height: 24px
+    color: #FFFFFF
+    cursor: pointer
+
+.label
+    margin-top: 12px
+    margin-bottom: 12px
+    font-family: Inter , sans-serif
+    font-size: 12px
+    line-height: 16px
+    color: #007DFF
+    display: block
+    display: flex
+    align-items: flex-start
+    gap: 10px
+
+.link:hover
+    text-decoration: underline
+
+
+input[type="checkbox"] 
+    display: none
+
+.custom-checkbox
+    display: inline-block
+    width: 25px
+    height: 20px
+    border-radius: 4px
+    border: 2px solid #007DFF
+    cursor: pointer
+    
+
+input[type="checkbox"]:checked + .custom-checkbox 
+    background-color:#FFFFFF
+    border-color: #007bff
+    &::before
+        content: "✔"
+        padding-left: 4.2px
+       
+
+    
+        
+        
+
+   
+
+    
+
+
+

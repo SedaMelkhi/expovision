@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100400&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400600&family=Inter:wght@400600&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+
+*
+    box-sizing: border-box
+
+html
+    scroll-behavior: smooth
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li
+    margin: 0
+    padding: 0
+
+body
+    font-family: Geologica, sans-serif
+
+a
+    text-decoration: none
+    color: inherit
+
+hr
+    border: 1px solid #E6EDF0
+    opacity: 0px
+
+input
+    &:focus
+        outline: none
+
+.wrapper
+    max-width: 1286px
+    margin: 0 auto
+    padding: 0 35px
+    @media (max-width: 1199px)
+        padding: 0 48px
+        margin: 0px
+    @media (max-width: 767px)
+        padding: 0 24px
+

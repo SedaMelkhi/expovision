@@ -1,0 +1,48 @@
+.nav
+    padding: 32px 0
+    border-bottom:1px solid #E6EDF0
+    position: fixed
+    z-index: 1
+    width: 100%
+    top: 0px
+    background-color:  #FFFFFF
+
+.nav-container
+    display: flex
+    align-items: center
+    gap: 70px
+    @media (max-width: 1199px)
+        justify-content: space-between
+
+
+.menu
+    display: flex
+    gap: 70px
+    font-family: Inter, sans-serif
+    font-size: 18px
+    line-height: 28px
+    &__item:hover
+        color: blue
+        text-decoration: underline
+    @media (max-width: 1199px)
+        display: none
+
+
+.hamburger
+    width: 32px
+    display: none
+    flex-direction: column
+    gap: 6px
+    cursor: pointer
+    @media (max-width: 1199px)
+        display: flex
+    &__line
+        height: 2px
+        background-color: #0D0D0D
+
+.logo
+    width: 184px
+    img
+        width: 100%
+    @media (max-width: 1199px)
+        width: 246px

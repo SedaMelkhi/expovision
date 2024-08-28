@@ -1,0 +1,40 @@
+.run-line
+    display: flex
+    gap: 52px
+    padding: 19px
+    @media (max-width: 1199px)
+        gap: 32px
+        padding: 17px
+    @media (max-width: 767px)
+        gap: 21px
+        padding: 12px
+    @media (max-width: 219px)
+        gap: 12px
+        padding: 7px
+    &__wrapper
+        width: 100%
+        overflow-x: hidden
+        border-top: 1.6px solid #000
+        border-bottom: 1.6px solid #000
+        margin-top: 113px
+        margin-bottom: 135px
+        @media (max-width: 1199px)
+            border-top: 1.5px solid #000
+            border-bottom: 1.5px solid #000
+            margin-top: 55px
+            margin-bottom: 100px
+        @media (max-width: 767px)
+            border-top: .6px solid #000
+            border-bottom: .6px solid #000
+            margin-top: 34px
+            margin-bottom: 32px
+    &__item
+        font-size: 39px
+        text-transform: uppercase
+        @media (max-width: 1199px)
+            font-size: 25px
+        @media (max-width: 767px)
+            font-size: 16px
+        @media (max-width: 220px)
+            font-size: 11px
+
